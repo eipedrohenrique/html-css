@@ -9,6 +9,7 @@ header {
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: center;
 }
 
 nav ul {
@@ -82,6 +83,7 @@ section p {
     border-radius: 10px;
 	background-color: #f5deb3;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 #menu li:last-child {
@@ -156,4 +158,13 @@ footer a {
 
 footer a:hover {
 	color: #f0c8a4;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: lightgray; 
 }
